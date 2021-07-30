@@ -1,0 +1,47 @@
+.button-item {
+    background-color: transparent;
+    
+    padding: 18px 24px 18px 24px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.25px;
+    color: #222B45;
+    border: none;
+    box-sizing: border-box;
+    // outline: none;
+    display: block;
+    border-left: 3px solid transparent;
+    text-align: left;
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border: 1px solid #EDF1F7;
+    
+    .icon-span {
+        margin-right: 20px;
+        fill: #9FA2B4;
+    }
+    &:hover {
+        background: rgba(159, 162, 180, 0.08);
+        color:  #3666FF;
+        .icon-span {
+            fill:  #3666FF;
+        }
+    }
+    
+
+    &.active {
+        background: rgba(43, 72, 238, 0.07);
+        mix-blend-mode: normal;
+        color:  #3666FF;
+        .icon-span {
+            fill: #3666FF;
+        }
+        border-left: 3px solid #3666FF;
+    }
+}

@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FAFAFB;
+    padding: 25px;
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.App {
+    display: flex;
+}
+
+.pages-text {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    color: #8F9BB3;
+}
+
+.pages {
+    width: 70%;
+    margin-left: 24px;
+}

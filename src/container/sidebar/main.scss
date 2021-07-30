@@ -1,0 +1,79 @@
+.sidebar {
+    width: 300px;
+    background-color: #ffffff;
+    // position: fixed;
+
+    .sidebar-peson-card {
+        border: 1px solid #EDF1F7;
+        box-sizing: border-box;
+        border-radius: 8px;
+        // padding: 40px 19px;
+
+        .person-card-top {
+            display: flex;
+            justify-content: space-between;
+            padding: 40px 19px 0 19px;
+            .person-card-left {
+                display: flex;
+                align-items: flex-start;
+
+                .hotelier1 {
+                   text-decoration: none !important;
+                   color: #222B45;
+                    font-size: 30px;
+                    padding-left: 20px;
+                }
+            }
+        }
+
+        .person-card-bottom {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 19px;
+            padding: 0 19px;
+            .person-card-bottom-left {
+                display: flex;
+                align-items: center;
+                
+            }
+
+            .personal-info {
+                padding-left: 16px;
+
+                .personal-name {
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 18px;
+                    line-height: 24px;
+                    text-align: right;
+                    letter-spacing: 0.25px;
+                    color: #222B45;
+    
+                }
+    
+                .personal-works {
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 12px;
+                    line-height: 16px;
+                    color: #8F9BB3;
+                }
+            }
+
+           
+        }
+
+        .link {
+            
+               text-decoration: none;
+            //    padding: 30px;
+            &:first-child {
+                margin-top: 20px;
+                display: block;
+            }
+           }
+    }
+
+    
+}

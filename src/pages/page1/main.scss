@@ -1,0 +1,70 @@
+.dashboard {
+    padding: 36px 24px;
+    background: white;
+    width: 100%;
+}
+
+.one-block {
+    display: flex;
+    align-items: center;
+    margin-top: 32px;
+    justify-content: space-between;
+}
+
+.two-block {
+    display: flex;
+    align-items: center;
+    margin-top: 32px;
+    justify-content: space-between;
+}
+
+.there-block {
+    display: flex;
+    align-items: center;
+    margin-top: 32px;
+    justify-content: space-between;
+}
+
+.btn-block {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    .cancellation {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 16px;
+        padding: 12px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        text-transform: uppercase;
+        color: #2E3A59;
+        border-radius: 4px;
+        background: none;
+        border: none;
+        cursor: pointer;
+        margin: 0 20px;
+    }
+
+    .save {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 16px;
+        padding: 12px 17px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        cursor: pointer;
+        text-transform: uppercase;
+        color: #2E3A59;
+        border-radius: 4px;
+        background: #3366FF;
+        border: none;
+        color: white;
+        margin: 0 20px;
+    }
+}
+
+

@@ -1,0 +1,228 @@
+.dash-input {
+
+    width: 45%;
+    
+    .input-text {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 16px;
+        text-transform: uppercase;
+        color: #8992A3;
+        width: 100%;
+        .camera {
+            display: none;
+        }
+    }
+
+
+    .input {
+        display: block;
+        background: #FAFAFB;
+        border: 1px solid #E4E9F2;
+        box-sizing: border-box;
+        border-radius: 4px;
+        padding: 14px 16px;
+        margin-top: 10px;
+        width: 100%;
+        &::placeholder {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 20px;
+            letter-spacing: 0.25px;
+            color: #8F9BB3;
+        }
+    }
+
+    .images {
+        display: none;
+    }
+
+    .images-text {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 16px;
+        text-transform: uppercase;
+        color: #8992A3;
+    }
+
+    .input-images {
+        width: 130px;
+        height: 130px;
+        background: #EDF1F7;
+        border: 2px dashed #E4E9F2;
+        border-radius: 8px;
+        color: #8F9BB3;
+        display: block;
+        text-align: center;
+        cursor: pointer;
+        transition: all ease 0.5s;
+        margin-top: 24px;
+        &:hover {
+            background: #5b59eee6;
+        }
+    }
+
+    .camera {
+        margin: 10px auto;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        display: block;
+    }
+
+    
+}
+
+.one-input {
+    width: 100%;
+    
+    .input-text {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 16px;
+        text-transform: uppercase;
+        color: #8992A3;
+        width: 100%;
+        .camera {
+            display: none;
+        }
+    }
+
+
+    .input {
+        display: block;
+        background: #FAFAFB;
+        border: 1px solid #E4E9F2;
+        box-sizing: border-box;
+        border-radius: 4px;
+        padding: 14px 16px;
+        margin-top: 10px;
+        width: 100%;
+        &::placeholder {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 20px;
+            letter-spacing: 0.25px;
+            color: #8F9BB3;
+        }
+    }
+
+    .images {
+        display: none;
+    }
+
+    .images-text {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 16px;
+        text-transform: uppercase;
+        color: #8992A3;
+    }
+
+    .input-images {
+        width: 130px;
+        height: 130px;
+        background: #EDF1F7;
+        border: 2px dashed #E4E9F2;
+        border-radius: 8px;
+        color: #8F9BB3;
+        display: block;
+        text-align: center;
+        cursor: pointer;
+        transition: all ease 0.5s;
+        margin-top: 24px;
+        &:hover {
+            background: #5b59eee6;
+        }
+    }
+
+    .camera {
+        margin: 10px auto;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        display: block;
+    }
+}
+
+.there-input {
+    width: 32%;
+    
+    .input-text {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 16px;
+        text-transform: uppercase;
+        color: #8992A3;
+        width: 100%;
+        .camera {
+            display: none;
+        }
+    }
+
+
+    .input {
+        display: block;
+        background: #FAFAFB;
+        border: 1px solid #E4E9F2;
+        box-sizing: border-box;
+        border-radius: 4px;
+        padding: 14px 16px;
+        margin-top: 10px;
+        width: 100%;
+        &::placeholder {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 20px;
+            letter-spacing: 0.25px;
+            color: #8F9BB3;
+        }
+    }
+
+    .images {
+        display: none;
+    }
+
+    .images-text {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 16px;
+        text-transform: uppercase;
+        color: #8992A3;
+    }
+
+    .input-images {
+        width: 130px;
+        height: 130px;
+        background: #EDF1F7;
+        border: 2px dashed #E4E9F2;
+        border-radius: 8px;
+        color: #8F9BB3;
+        display: block;
+        text-align: center;
+        cursor: pointer;
+        transition: all ease 0.5s;
+        margin-top: 24px;
+        &:hover {
+            background: #5b59eee6;
+        }
+    }
+
+    .camera {
+        margin: 10px auto;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        display: block;
+    }
+}
+

@@ -1,0 +1,39 @@
+.icon-span {
+    margin-right: 20px;
+    fill: #9FA2B4;
+}
+
+.acar-block {
+    transition: all ease 0.5s;
+
+    background-color: transparent;
+    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.25px;
+    color: #222B45;
+    border: none;
+    box-sizing: border-box;
+    display: block;
+    border-left: 3px solid transparent;
+    // text-align: left;
+    width: 100%;
+    cursor: pointer;
+
+
+    &.active {
+        background: rgba(43, 72, 238, 0.07);
+        mix-blend-mode: normal;
+        color:  #3666FF;
+        .icon-span {
+            fill: #3666FF;
+        }
+        border-left: 3px solid #3666FF;
+    }
+}
+
+.accordion-button {
+    padding: none !important;
+}
